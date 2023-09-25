@@ -9,7 +9,7 @@ Esta é uma demonstração de teste de integração com *testcontainer* usando o
 * Neste ***docker-compose***, a porta foi indicada apenas para o caso de se rodar o arquivo manualmente, já que ao rodar no 
 testcontainer é atribuída uma porta aleatória automaticamente.
 
-* As configurações do realm do Keycloak usadas neste testcontainer estão no arquivo *src/test/resources/realm-export.json*.
+* As configurações do ***Realm*** do ***Keycloak*** usadas neste *testcontainer* estão no arquivo *src/test/resources/realm-export.json*.
 * Ao final deste arquivo ***realm-export.json*** foi adicionado um ***usuário de teste*** no ***Keycloak***, 
 que será usado para se obter o token JWT nos testes:
 
